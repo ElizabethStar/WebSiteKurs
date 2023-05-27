@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Courier New', Courier, monospace;
+}
+
+header {
+    padding: 0 5%;
+    border-bottom: 5px solid rgb(170,189,253);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+header nav {
+    display: block;
+    
+
+}
+
+
+header nav ul {
+    display: flex;
+    justify-content: flex-start;    
+    align-items: flex-start;
+}
+
+header a{
+    padding:  30px 15px 20px 15px;
+}
+
+header nav ul li {
+    display: block;
+    position: relative;
+}
+
+header nav ul li a {
+    display: block;
+    color: #000000;
+    padding:  30px 15px 20px 15px;
+    text-decoration:  none;
+    font-size: 16px;
+    
+
+}
+
+header nav ul li a.now {
+    color: aliceblue;
+    background-color: rgb(170, 189, 253);
+    
+
+}
+
+header nav ul li a:hover{
+    color: aliceblue;
+    background-color: rgb(170, 189, 253);
+}
+
+section {
+    padding: 0 10%;   
+    margin-bottom: 15px;
+}
+
+.mainpagesection h2{
+    margin-bottom: 15px;
+    color: royalblue;
+}
+
+
+
+.mainpagesection button{
+    width: 35px;
+    height: 35px;
+    background-color: rgb(170, 189, 253);
+}
+
+
+
+.mainpagesection ul{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    border-bottom: 2px solid silver;
+        
+}
+
+
+.mainpagesection ul li{
+    display: block;
+}
+
+.mainpagesection ul li a {
+    color:#000000;
+    background-color:rgb(230, 230, 230);
+    display: block;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+
+
+.mainpagesection ul li a:hover{
+    color: aliceblue;
+    background-color: rgb(170, 189, 253);
+    display: block;
+}
+
+header nav ul ol
+{
+    position: absolute;
+    display: none;
+    background-color: rgb(228, 238, 250);
+}
+
+header nav ul li:hover ol
+{
+   
+    display: block;
+}
+
+main
+{
+    padding: 0 5%;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+
+.notdisplay
+{
+    visibility: hidden;
+}
+
+.example
+{
+    color: rgb(86, 28, 141);
+}
+
+.example b{
+    color: red;
+}
+
+input 
+{   
+    width: 50%;
+    height: 20;
+    font-family: inherit;
+    font-size: 1rem;
+    color: rgb(86, 28, 141);
+    background-color: #fff;
+    border: 1px solid #bdbdbd;
+    border-radius: 0.25rem;
+    
+}
+
+input:focus 
+{
+    color: #212529;
+    background-color: #fff;
+    border-color: #bdbdbd;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(86, 28, 141, 0.25);
+}
+  
+button {
+    width: 50px;
+    height: 30px;
+    font-family: inherit;
+    color: rgb(86, 28, 141);
+    background-color: #fff;
+    border: 2px solid rgb(86, 28, 141);
+    border-radius: 0.25rem;
+}
+
+button:hover {
+    width: 50px;
+    height: 30px;
+    font-family: inherit;
+    color: rgb(86, 28, 141);
+    background-color: rgb(86, 28, 141, 0.25);
+    border: 2px solid rgb(86, 28, 141);
+    border-radius: 0.25rem;
+}
+.notmainpagesection h2
+{
+    margin-bottom: 15px;
+    color: royalblue;
+}
+
+
+
+.notmainpagesection button{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(170, 189, 253);
+}
+
+
+
+.notmainpagesection ul{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+        
+}
+
+
+.notmainpagesection ul li{
+    display: block;
+}
+
+.notmainpagesection ul li a {
+    color:#000000;
+    background-color:rgb(230, 230, 230);
+    display: block;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+
+a.list
+{
+    border: 2px solid silver;
+}
+
+.notmainpagesection ul li a:hover{
+    color: aliceblue;
+    background-color: rgb(170, 189, 253);
+    display: block;
+}
